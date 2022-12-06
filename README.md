@@ -1,2 +1,4 @@
-# collection
-Some ideas for games
+# Behinde the dark
+3d light strategy CCG alike game.
+
+

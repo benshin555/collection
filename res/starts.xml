@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<starts>
+
+   <background value="1" file="gui/bg.png" posision="centered" scale="100"/>
+
+   <control value="2">
+      <control name="Новая игра" posision-x="" posision-y=""/>
+      <control file="new_session.xml" link="true" link-type="open"/>
+	  <control on-hover-tip="true" tip="Начать новую игру"/>
+   </control>
+
+   <control value="3">
+      <control name="Загрузить игру" posision-x="" posision-y=""/>
+      <control file="load_session.xml" link="true" link-type="open"/>
+	  <control on-hover-tip="true" tip="Загрузить ранее сохранёную игру"/>
+   </control>
+
+   <control value="4">
+      <control name="Настройки" posision-x="" posision-y=""/>
+      <control file="settings.xml" link="true" link-type="open"/>
+	  <control on-hover-tip="true" tip="Открыть игравые настройки"/>
+   </control>
+
+   <control value="5">
+      <control name="Разработчики" posision-x="" posision-y=""/>
+      <control file="credits.xml" link="true" link-type="open"/>
+	  <control on-hover-tip="true" tip="Показать информацию о разработчиков игры"/>
+   </control>
+
+   <control value="6">
+      <control name="Помощ"/>
+      <control posision-x="" posision-y=""/>
+      <control file="help.xml" link="true" link-type="open"/>
+	  <control on-hover-tip="true" tip="Помощ по игре"/>
+   </control>
+
+   <control value="7">
+      <control name="Выход" posision-x="" posision-y=""/>
+      <control file="starts.xml" link="true" link-type="exit"/>
+	  <control on-hover-tip="true" tip="Выйти из игры"/>
+   </control>
+
+</starts>
